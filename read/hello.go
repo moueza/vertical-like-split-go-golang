@@ -1,0 +1,21 @@
+package main
+
+//go mod init read
+import (
+	"fmt"
+	"io/ioutil"
+)
+
+func check(e error) {
+	if e != nil {
+		panic(e)
+	}
+}
+
+func main() {
+
+	dat, err := ioutil.ReadFile("../data.txt")
+	check(err)
+	fmt.Print(string(dat))
+
+}
