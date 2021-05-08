@@ -5,4 +5,6 @@ E. Leclerc tickets coy for Google spreadsheet paste
 
 Install : https://golang.org/doc/tutorial/getting-started
 
+go mod init read
+
 Exec : go run .
